@@ -53,11 +53,11 @@ export const CompressionResult: React.FC<CompressionResultProps> = ({
           message="智能压缩中..."
         />
         
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
-          <div className="w-16 h-16 mx-auto mb-4 bg-blue-500 rounded-2xl flex items-center justify-center animate-pulse-soft">
+        <div className="bg-cyan-50 border border-cyan-200 rounded-xl p-6 text-center">
+          <div className="w-16 h-16 mx-auto mb-4 bg-cyan-500 rounded-2xl flex items-center justify-center animate-pulse-soft">
             <RotateCcw className="w-8 h-8 text-white animate-spin-slow" />
           </div>
-          <p className="text-blue-700 font-medium">正在使用智能算法优化图片质量和大小</p>
+          <p className="text-cyan-700 font-medium">正在使用智能算法优化图片质量和大小</p>
         </div>
       </div>
     );

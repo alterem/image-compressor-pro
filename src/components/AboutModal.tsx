@@ -1,5 +1,6 @@
 import React from 'react';
-import { X, ImageIcon, Zap, Shield, Target, Sparkles, Globe } from 'lucide-react';
+import { X, Zap, Shield, Target, Sparkles, Globe } from 'lucide-react';
+import { CompressIcon } from './CompressIcon';
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -21,8 +22,8 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
         {/* Header - Fixed */}
         <div className="flex items-center justify-between p-6 border-b border-gray-200 flex-shrink-0">
           <div className="flex items-center gap-3">
-            <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-2 rounded-xl">
-              <ImageIcon className="w-6 h-6 text-white" />
+            <div className="bg-gradient-to-r from-cyan-600 to-emerald-600 p-2 rounded-xl">
+              <CompressIcon className="w-6 h-6 text-white" />
             </div>
             <h2 className="text-2xl font-bold text-gray-800">关于智能图片压缩专家</h2>
           </div>
@@ -50,11 +51,11 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-gray-800">核心功能</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-xl">
-                <Zap className="w-6 h-6 text-blue-500 mt-0.5" />
+              <div className="flex items-start gap-3 p-4 bg-cyan-50 rounded-xl">
+                <Zap className="w-6 h-6 text-cyan-500 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-blue-800">极速压缩</h4>
-                  <p className="text-sm text-blue-600">采用多线程处理，压缩速度快</p>
+                  <h4 className="font-semibold text-cyan-800">极速压缩</h4>
+                  <p className="text-sm text-cyan-600">采用多线程处理，压缩速度快</p>
                 </div>
               </div>
 
@@ -102,7 +103,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
             <h3 className="text-lg font-semibold text-gray-800">技术特点</h3>
             <ul className="space-y-2 text-gray-600">
               <li className="flex items-center gap-2">
-                <Globe className="w-4 h-4 text-blue-500" />
+                <Globe className="w-4 h-4 text-cyan-500" />
                 <span>基于现代 Web 技术构建，无需安装</span>
               </li>
               <li className="flex items-center gap-2">

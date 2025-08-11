@@ -96,7 +96,7 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
     <div className="space-y-6">
       <div className="text-center mb-6">
         <div className="flex items-center justify-center gap-2 mb-2">
-          <Settings className="w-6 h-6 text-blue-500" />
+          <Settings className="w-6 h-6 text-cyan-500" />
           <h2 className="text-2xl font-bold text-gray-800">压缩设置</h2>
         </div>
         <p className="text-gray-600">调整参数以获得最佳压缩效果</p>
@@ -105,7 +105,7 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
       {/* Target Size */}
       <div className="space-y-3">
         <div className="flex items-center gap-2">
-          <Target className="w-5 h-5 text-indigo-500" />
+          <Target className="w-5 h-5 text-teal-500" />
           <label className="font-semibold text-gray-800">目标文件大小（可选）</label>
         </div>
         <div className="relative">
@@ -114,7 +114,7 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
             placeholder="例如: 1.5MB, 500KB"
             value={targetSizeInput}
             onChange={(e) => handleTargetSizeChange(e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all"
             disabled={isCompressing}
           />
           {hasTargetSize && (
@@ -133,7 +133,7 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
       {/* Quality Slider */}
       <div className="space-y-3">
         <div className="flex items-center gap-2">
-          <Sliders className="w-5 h-5 text-blue-500" />
+          <Sliders className="w-5 h-5 text-cyan-500" />
           <label className="font-semibold text-gray-800">图片质量</label>
         </div>
         <div className="space-y-2">
@@ -149,7 +149,7 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
           />
           <div className="flex justify-between text-sm">
             <span className="text-gray-500">最小文件</span>
-            <span className="font-semibold text-blue-600">
+            <span className="font-semibold text-cyan-600">
               {(config.quality * 100).toFixed(0)}% - {getQualityLabel(config.quality)}
             </span>
             <span className="text-gray-500">最佳质量</span>
@@ -160,7 +160,7 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
       {/* Output Format */}
       <div className="space-y-3">
         <div className="flex items-center gap-2">
-          <FileImage className="w-5 h-5 text-purple-500" />
+          <FileImage className="w-5 h-5 text-emerald-500" />
           <label className="font-semibold text-gray-800">输出格式</label>
         </div>
         <div className="grid grid-cols-3 gap-3">
@@ -174,8 +174,8 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
                 disabled:opacity-50 disabled:cursor-not-allowed
                 ${
                   config.outputFormat === format
-                    ? 'border-blue-500 bg-blue-50 text-blue-700'
-                    : 'border-gray-200 bg-white text-gray-700 hover:border-blue-300'
+                    ? 'border-cyan-500 bg-cyan-50 text-cyan-700'
+                    : 'border-gray-200 bg-white text-gray-700 hover:border-cyan-300'
                 }
               `}
             >
@@ -206,8 +206,8 @@ export const CompressionSettings: React.FC<CompressionSettingsProps> = ({
         disabled={isCompressing}
         className="
           w-full flex items-center justify-center gap-3 px-6 py-4 rounded-xl font-semibold text-lg
-          bg-gradient-to-r from-blue-500 to-indigo-500 text-white
-          hover:from-blue-600 hover:to-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed
+          bg-gradient-to-r from-cyan-500 to-emerald-500 text-white
+          hover:from-cyan-600 hover:to-emerald-600 disabled:opacity-50 disabled:cursor-not-allowed
           transition-all duration-300 hover-lift
         "
       >
@@ -225,7 +225,7 @@ const sliderStyles = `
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  background: linear-gradient(135deg, #06b6d4, #10b981);
   cursor: pointer;
   border: 2px solid white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -235,7 +235,7 @@ const sliderStyles = `
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  background: linear-gradient(135deg, #06b6d4, #10b981);
   cursor: pointer;
   border: 2px solid white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);

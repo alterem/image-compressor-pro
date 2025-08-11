@@ -8,3 +8,4 @@ export { ImagePreview } from './ImagePreview';
 export { CompressionStats } from './CompressionStats';
 export { DownloadButton } from './DownloadButton';
 export { AboutModal } from './AboutModal';
+export { CompressIcon } from './CompressIcon';

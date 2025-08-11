@@ -96,7 +96,7 @@
   left: 50%;
   width: 2px;
   height: 100%;
-  background: linear-gradient(to bottom, #3b82f6, #1d4ed8);
+  background: linear-gradient(to bottom, #06b6d4, #10b981);
   z-index: 10;
   box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
 }
@@ -147,9 +147,9 @@
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 500;
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  background: linear-gradient(135deg, #06b6d4, #10b981);
   color: white;
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
 }
 
 /* Format badge */

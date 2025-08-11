@@ -53,7 +53,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
         ${
           downloaded
             ? 'bg-gradient-to-r from-green-500 to-emerald-500 text-white'
-            : 'bg-gradient-to-r from-blue-500 to-indigo-500 text-white hover:from-blue-600 hover:to-indigo-600'
+            : 'bg-gradient-to-r from-cyan-500 to-emerald-500 text-white hover:from-cyan-600 hover:to-emerald-600'
         }
         ${className}
       `}

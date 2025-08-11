@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { ImageIcon, Zap, Shield, Info } from 'lucide-react';
+import { Info } from 'lucide-react';
 import { AboutModal } from './AboutModal';
+import { CompressIcon } from './CompressIcon';
 
 export const Header: React.FC = () => {
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
@@ -32,40 +33,25 @@ export const Header: React.FC = () => {
             className="p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover-lift group"
             title="关于项目"
           >
-            <Info className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" />
+            <Info className="w-5 h-5 text-gray-600 group-hover:text-cyan-600 transition-colors" />
           </button>
         </div>
         <div className="flex items-center justify-center mb-6">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl blur-lg opacity-20 animate-pulse-soft"></div>
-            <div className="relative bg-gradient-to-r from-blue-600 to-indigo-600 p-4 rounded-2xl">
-              <ImageIcon className="w-12 h-12 text-white" />
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-2xl blur-lg opacity-20 animate-pulse-soft"></div>
+            <div className="relative bg-gradient-to-r from-cyan-500 to-emerald-500 p-4 rounded-2xl">
+              <CompressIcon className="w-12 h-12 text-white" />
             </div>
           </div>
         </div>
 
-        <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">
-          智能图片压缩专家
+        <h2 className="text-5xl font-bold bg-gradient-to-r from-cyan-600 via-teal-600 to-emerald-600 bg-clip-text text-transparent mb-4">
+          智能图片压缩
         </h2>
 
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
           专业的在线图片压缩工具，智能算法保证最佳质量，精确控制文件大小
         </p>
-
-        <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500">
-          <div className="flex items-center gap-2">
-            <Zap className="w-5 h-5 text-blue-500" />
-            <span>极速压缩</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <Shield className="w-5 h-5 text-green-500" />
-            <span>隐私保护</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <ImageIcon className="w-5 h-5 text-purple-500" />
-            <span>质量保证</span>
-          </div>
-        </div>
       </header>
 
       {/* About Modal */}

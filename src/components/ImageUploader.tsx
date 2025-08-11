@@ -100,8 +100,8 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({
             transition-all duration-300 hover-lift
             ${
               dragActive
-                ? 'border-blue-500 bg-blue-50/50 scale-[1.02]'
-                : 'border-gray-300 hover:border-blue-400 hover:bg-blue-50/30'
+                ? 'border-cyan-500 bg-cyan-50/50 scale-[1.02]'
+                : 'border-gray-300 hover:border-cyan-400 hover:bg-cyan-50/30'
             }
           `}
           onDrop={handleDrop}
@@ -119,7 +119,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({
           />
           
           <div className="space-y-4">
-            <div className="mx-auto w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center">
+            <div className="mx-auto w-20 h-20 bg-gradient-to-br from-cyan-500 to-emerald-600 rounded-2xl flex items-center justify-center">
               <Upload className="w-10 h-10 text-white" />
             </div>
             
