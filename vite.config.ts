@@ -10,7 +10,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/image-compressor-pro/' : '/image-compressor-pro/',
+  base: process.env.NODE_ENV === 'production' ? '/image-compressor-pro/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

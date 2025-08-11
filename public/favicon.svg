@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="16" cy="16" r="15" fill="url(#gradient1)" stroke="#1E40AF" stroke-width="1"/>
+  <rect x="6" y="8" width="20" height="14" rx="2" fill="white" stroke="#E5E7EB" stroke-width="0.5"/>
+  <rect x="7" y="9" width="18" height="12" rx="1" fill="#F9FAFB"/>
+  <path d="M8 18 L12 14 L16 16 L20 12 L24 15 V20 H8 Z" fill="url(#gradient2)" opacity="0.8"/>
+  <circle cx="11" cy="12" r="1.5" fill="#FCD34D"/>
+  <path d="M26 10 L28 12 L26 14" stroke="#EF4444" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26 6 L28 8 L26 10" stroke="#EF4444" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="26" cy="24" r="4" fill="#EF4444"/>
+  <text x="26" y="26" text-anchor="middle" fill="white" font-size="6" font-weight="bold">S</text>
+</svg>

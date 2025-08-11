@@ -1,0 +1,69 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="image-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sun-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="shadow-gradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <circle cx="256" cy="266" r="240" fill="url(#shadow-gradient)"/>
+  
+  <circle cx="256" cy="256" r="240" fill="url(#bg-gradient)" stroke="#1E40AF" stroke-width="16"/>
+  
+  <circle cx="256" cy="256" r="200" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  
+  <rect x="96" y="128" width="320" height="224" rx="32" fill="white" stroke="#E5E7EB" stroke-width="8"/>
+  <rect x="112" y="144" width="288" height="192" rx="16" fill="#F9FAFB"/>
+  
+  <path d="M128 288 L192 224 L256 256 L320 192 L384 240 V320 H128 Z" fill="url(#image-gradient)" opacity="0.9"/>
+  
+  <circle cx="176" cy="192" r="24" fill="url(#sun-gradient)"/>
+  <g stroke="url(#sun-gradient)" stroke-width="4" stroke-linecap="round">
+    <path d="M176 152 V168"/>
+    <path d="M176 216 V232"/>
+    <path d="M216 192 H200"/>
+    <path d="M152 192 H136"/>
+    <path d="M204 164 L192 176"/>
+    <path d="M160 208 L148 220"/>
+    <path d="M204 220 L192 208"/>
+    <path d="M160 176 L148 164"/>
+  </g>
+  
+  <g stroke="#EF4444" stroke-width="24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M416 160 L448 192 L416 224"/>
+    <path d="M416 96 L448 128 L416 160"/>
+    <path d="M416 224 L448 256 L416 288"/>
+  </g>
+  
+  <g stroke="#EF4444" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M400 128 L432 128"/>
+    <path d="M400 192 L432 192"/>
+    <path d="M400 256 L432 256"/>
+  </g>
+  
+  <circle cx="416" cy="384" r="64" fill="#EF4444"/>
+  <circle cx="416" cy="384" r="56" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="4"/>
+  <text x="416" y="404" text-anchor="middle" fill="white" font-size="96" font-weight="bold" font-family="Arial, sans-serif">S</text>
+  
+  <circle cx="80" cy="80" r="16" fill="#10B981" opacity="0.6"/>
+  <circle cx="432" cy="80" r="16" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="80" cy="432" r="16" fill="#8B5CF6" opacity="0.6"/>
+  <circle cx="160" cy="60" r="8" fill="#EC4899" opacity="0.4"/>
+  <circle cx="352" cy="60" r="8" fill="#06B6D4" opacity="0.4"/>
+  <circle cx="60" cy="352" r="8" fill="#84CC16" opacity="0.4"/>
+  
+  <ellipse cx="200" cy="150" rx="40" ry="20" fill="rgba(255,255,255,0.2)" transform="rotate(-30 200 150)"/>
+</svg>

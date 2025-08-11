@@ -1,0 +1,37 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="96" cy="96" r="90" fill="url(#gradient1)" stroke="#1E40AF" stroke-width="6"/>
+  
+  <rect x="36" y="48" width="120" height="84" rx="12" fill="white" stroke="#E5E7EB" stroke-width="3"/>
+  <rect x="42" y="54" width="108" height="72" rx="6" fill="#F9FAFB"/>
+  
+  <path d="M48 108 L72 84 L96 96 L120 72 L144 90 V120 H48 Z" fill="url(#gradient2)" opacity="0.8"/>
+  <circle cx="66" cy="72" r="9" fill="url(#gradient3)"/>
+  
+  <g stroke="#EF4444" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M156 60 L168 72 L156 84"/>
+    <path d="M156 36 L168 48 L156 60"/>
+    <path d="M156 84 L168 96 L156 108"/>
+  </g>
+  
+  <circle cx="156" cy="144" r="24" fill="#EF4444"/>
+  <text x="156" y="154" text-anchor="middle" fill="white" font-size="36" font-weight="bold" font-family="Arial, sans-serif">S</text>
+  
+  <circle cx="30" cy="30" r="6" fill="#10B981" opacity="0.6"/>
+  <circle cx="162" cy="30" r="6" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="30" cy="162" r="6" fill="#8B5CF6" opacity="0.6"/>
+</svg>
